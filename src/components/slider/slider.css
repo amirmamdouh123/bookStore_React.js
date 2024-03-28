@@ -1,0 +1,98 @@
+.sliderContainer{
+    width: 100vw;
+    height: calc(100vh - 200px);
+    background-color: aqua;
+    overflow: hidden;
+    
+}
+
+.sliderContainer .sliderWapper{
+    height: 100px;
+    display: flex;
+    transition: all 1s ease;
+    width: 300vw;
+
+}
+
+.sliderContainer .sliderWapper .slide{
+    height: calc(100vh - 200px);
+    width: 100vw;
+    display: flex;
+    align-items: center;
+}
+
+.slideImgWrapper{
+    width: 50%;
+    height: 90%;
+}
+
+.slideImgWrapper img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+
+}
+
+.slideInfoWarpper{
+    width: 50%;
+    margin-right: 40px;
+    
+}
+
+.slideInfoWarpper .sliderTitle {
+    font-size: 40px;
+}
+
+.slideInfoWarpper .sliderParagraph{
+    margin: 21px 0;
+    font-size: 24px;
+    font-weight: 500;
+    letter-spacing: 3px;
+}
+
+
+
+.slide.firstSlide {
+    background: rgb(34, 193, 195);
+    background: linear-gradient(0deg, rgba(34, 193, 195, 1) 0%, rgba(253, 187, 45, 1) 100%);
+}
+
+.slide.secondSlide {
+    background: rgb(238, 174, 202);
+    background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
+}
+
+.slide.thirdSlide {
+    background: rgb(131, 58, 180);
+    background: linear-gradient(90deg, rgba(131, 58, 180, 1) 0%, rgba(253, 29, 29, 1) 80%, rgba(252, 176, 69, 1) 100%);
+}
+
+
+.arrow-left , .arrow-right{
+    color: aliceblue;
+    font-size: 40px;
+    width: 65px;
+    height: 65px;
+    margin-left: 5px;
+    position: absolute;
+    top: 400px;
+    cursor: pointer;
+    text-align: center;
+    background-color: brown;
+    border-radius: 50px;
+z-index: 1;
+}
+
+
+.arrow-left{
+    left:10px;
+}
+.arrow-right{
+    right:10px;
+}
+
+.arrow-left:hover ,.arrow-right:hover{
+    background-color: dimgrey;
+    color: black;
+}
+

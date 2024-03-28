@@ -1,0 +1,152 @@
+header{
+    height: 200px;
+    width: 100%;
+    background-color: var(--primary-color);
+}
+
+.ContainerCSS{
+    height: 100%;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.topHeader{
+    height: 20%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    border-bottom: 1px solid var(--main-color);
+    padding:30px;
+}
+
+.topHeaderTelephone ,.topHeaderWelcome,.topHeaderLogin{
+    font-size: 27px;
+    font-weight: 500;
+    color: var(--main-color);
+    cursor: pointer;
+
+}
+
+
+
+
+.middleHeader{
+    margin-top: 0px;
+    width: 100%;
+    height: 30%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.middleHeader .bookStoreSVG {
+    font-size:27px;
+    color: var(--main-color);
+    font-weight: 500;
+    cursor: pointer;
+
+}
+
+.middleHeader .headerSearch{
+    width: 60%;
+    height: 50px;
+    border-radius: 15px;
+    background-color: brown;
+}
+
+.middleHeader .headerSearch input{
+    height: 100%;
+    width: 100%;
+    border-radius: 15px;
+    font-size: 23px;
+    /* text-align: center; */
+    padding-left: 40px;
+}
+/* 
+.middleHeader .loginCSS{
+    height: 100%;
+    width: 100%;
+    border-radius: 15px;
+} */
+
+.middleHeader .cartCSS{
+    position: relative;
+    font-size:35px;
+    color: var(--main-color);
+    font-weight: 500;
+    margin-right:50px ;
+    cursor: pointer;
+}
+
+.middleHeader .cartCSS .contItems{
+    font-size: 18px;
+    position: absolute;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: crimson;
+    height: 30px;
+    width: 30px;
+    top: -6px;
+    right: -10px;
+    display:none;
+}
+
+.buttomHeader{
+    background-color: var(--main-color);
+    width: 105.5%;
+    height: 78px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.buttomHeader .menulist{
+    display: none;
+}
+
+
+.buttomHeader .navBar{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.buttomHeader .navBar a{
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    height: 100%;
+    width:100px;
+    text-align: center;
+    padding-top: 24px;
+}
+.buttomHeader .navBar a:hover{
+    background-color: darkgray;
+}
+
+@media(max-width:800px){
+    .middleHeader .bookStoreSVG ,.topHeaderTelephone ,.topHeaderWelcome,.topHeaderLogin{
+
+        font-size:20px;
+    }
+}
+
+@media(max-width:700px){
+    .middleHeader .bookStoreSVG ,.topHeaderTelephone ,.topHeaderWelcome,.topHeaderLogin{
+
+        font-size:15px;
+    }
+}
+
+@media(max-width:600px){
+    .middleHeader .bookStoreSVG ,.topHeaderTelephone ,.topHeaderWelcome,.topHeaderLogin{
+
+        font-size:10px;
+    }
+}

@@ -1,0 +1,307 @@
+{
+    "authors":[{
+        "id": 1,
+        "name": "Nizar Qabbani",
+        "image": "src/assets/imgs/authors/nizar.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Mahmoud Darwish",
+        "image": "src/assets/imgs/authors/darwish.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Tony Robbins",
+        "image": "src/assets/imgs/authors/tony.jpg"
+    },
+    {
+        "id": 4,
+        "name": "Elif Shafak",
+        "image": "src/assets/imgs/authors/shafak.jpg"
+    },
+    {
+        "id":5,
+        "name": "Brian Tracy",
+        "image": "src/assets/imgs/authors/brain.jpg"
+    },
+    {
+        "id":6,
+        "name": "Nassim Nicholas Taleb",
+        "image": "src/assets/imgs/authors/nassim.jpg"
+    },
+    {
+        "id": 7,
+        "name": "Khalil Gibran",
+        "image": "src/assets/imgs/authors/khalil.jpg"
+    },
+    {
+        "id": 8,
+        "name": "Debbie Ford",
+        "image": "src/assets/imgs/authors/ford.jpg"
+    },
+    {
+        "id": 9,
+        "name": "Paulo Coelho",
+        "image": "src/assets/imgs/authors/paulo.jpg"
+    },
+    {
+        "id": 10,
+        "name": "Wayne Dyer",
+        "image": "src/assets/imgs/authors/wayne.jpg"
+    },
+    {
+        "id":11,
+        "name": "Albert Camus",
+        "image": "src/assets/imgs/authors/albert.jpg"
+    },
+    {
+        "id":12,
+        "name": "George Orwell",
+        "image": "src/assets/imgs/authors/george.jpg"
+    },
+    {
+        "id": 13,
+        "name": "Robert Kiyosaki",
+        "image": "src/assets/imgs/authors/kiyosaki.jpg"
+    },
+    {
+        "id": 14,
+        "name": "Warren Buffett",
+        "image": "src/assets/imgs/authors/buffett.jpg"
+    },
+    {
+        "id": 15,
+        "name": "Ernest Hemingway",
+        "image": "src/assets/imgs/authors/eh.jpg"
+    },
+    {
+        "id": 16,
+        "name": "Mark Twain",
+        "image": "src/assets/imgs/authors/mark.jpg"
+    },
+    {
+        "id":17,
+        "name": "Xavier Crement",
+        "image": "src/assets/imgs/authors/crement.jpg"
+    },
+    {
+        "id":18,
+        "name": "Rolf Dobelli",
+        "image": "src/assets/imgs/authors/rolf.jpg"
+    },
+    {
+        "id": 19,
+        "name": "George Samuel Clason",
+        "image": "src/assets/imgs/authors/clason.jpg"
+    },
+    {
+        "id": 20,
+        "name": "Phil Knight",
+        "image": "src/assets/imgs/authors/phil.jpg"
+    },
+    {
+        "id": 21,
+        "name": "Oscar Wilde",
+        "image": "src/assets/imgs/authors/oscar.jpg"
+    },
+    {
+        "id": 22,
+        "name": "James Clear",
+        "image": "src/assets/imgs/authors/james.jpg"
+    },
+    {
+        "id":23,
+        "name": "Colleen Hoover",
+        "image": "src/assets/imgs/authors/hoover.jpg"
+    },
+    {
+        "id":24,
+        "name": "Sajni Patel",
+        "image": "src/assets/imgs/authors/patel.jpg"
+    },
+    {
+        "id":25,
+        "name": "Taylor Jenkins Reid",
+        "image": "src/assets/imgs/authors/reid.jpg"
+    },
+    {
+        "id":26,
+        "name": "Napolen Hill",
+        "image": "src/assets/imgs/authors/hill.jpg"
+    },
+    {
+        "id":27,
+        "name": "Chris Voss",
+        "image": "src/assets/imgs/authors/voss.jpg"
+    },
+    {
+        "id":28,
+        "name": "Vex King",
+        "image": "src/assets/imgs/authors/king.jpg"
+    },
+    {
+        "id":29,
+        "name": "Juliette Aristides",
+        "image":"/authors/j.jpg"
+    },
+    {
+        "id":30,
+        "name":"Leo Tolstoy",
+        "image":"/authors/leo.jpg"
+    }
+],
+"books":
+    [
+        {
+            "id":1,
+            "price": 10.50,
+            "rating":5,
+            "title": "Atomic Habits:Proven Way To Build Good Habits",
+            "author": "James Clear",
+            "reviews": "69,548",
+            "image": "src/assets/imgs/books/atomic-habits.jpg",
+            "printLength": 320,
+            "language": "English",
+            "PublicationDate": "16 April 2018",
+            "inStock": true
+        },
+        {
+            "id":2,
+            "price": 14,
+            "rating":5,
+            "title": "Confess",
+            "author": "Colleen Hoover",
+            "reviews": "3,980",
+            "image": "src/assets/imgs/books/confess.jpg",
+            "printLength": 410,
+            "language": "English",
+            "PublicationDate": "1 March 2015",
+            "inStock": true
+        },
+        {
+            "id":3,
+            "price": 9.05,
+            "rating":5,
+            "title": "The Trouble With Hating You",
+            "author": "Sajni Patel",
+            "reviews": "235",
+            "image": "src/assets/imgs/books/the-trouble-with-hating-you.jpg",
+            "printLength": 352,
+            "language": "English",
+            "PublicationDate": "1 June 2019",
+            "inStock": true
+        },
+        {
+            "id":4,
+            "price": 16.45,
+            "rating":4.5,
+            "title": "Hopeless",
+            "author": "Colleen Hoover",
+            "reviews": "1,587",
+            "image": "src/assets/imgs/books/hopeless.jpg",
+            "printLength": 416,
+            "language": "English",
+            "PublicationDate": "8 October 2012",
+            "inStock": true
+        },
+        {
+            "id":5,
+            "price": 8,
+            "rating":4,
+            "title": "Rich Dad Poor Dad",
+            "author": "Robert T.Kiyosaki",
+            "reviews": "8,661",
+            "image": "src/assets/imgs/books/rich-dad-poor-dad.jpg",
+            "printLength": 336,
+            "language": "English",
+            "PublicationDate": "27 April 2017",
+            "inStock": true
+        },
+        {
+            "id":6,
+            "price":21,
+            "rating":3.5,
+            "title": "One True Loves",
+            "author": "Taylor Jenkins Reid",
+            "reviews": "2,421",
+            "image": "src/assets/imgs/books/one-true-love.jpg",
+            "printLength": 342,
+            "language": "English",
+            "PublicationDate": "17 July 2016",
+            "inStock": true
+        },
+        {
+            "id":7,
+            "price":11.05,
+            "rating":4.5,
+            "title": "Think And Grow Rich",
+            "author": "Napolen Hill",
+            "reviews": "57,521",
+            "image": "src/assets/imgs/books/think-and-grow-rich.jpg",
+            "printLength": 320,
+            "language": "English",
+            "PublicationDate": "1 September 2005",
+            "inStock": true
+        },
+        {
+            "id":8,
+            "price": 7.05,
+            "rating":4.5,
+            "title": "Never Split The Difference",
+            "author": "Chris Voss",
+            "reviews": "17,980",
+            "image": "src/assets/imgs/books/never-split-the-difference.jpg",
+            "printLength": 288,
+            "language": "English",
+            "PublicationDate": "23 March 2017",
+            "inStock": true
+        },
+        {
+            "id":9,
+            "price": 12.58,
+            "rating":5,
+            "title": "Good Vibes, Good Life",
+            "author": "Vex King",
+            "reviews": "22,252",
+            "image": "src/assets/imgs/books/it-ends-with-us.jpg",
+            "printLength": 325,
+            "language": "English",
+            "PublicationDate": "4 December 2018",
+            "inStock": true 
+        },
+        {
+            "id":10,
+            "price": 5.98,
+            "rating":4.5,
+            "title": "Beginning Drawing Atelier",
+            "author": "Juliette Aristides",
+            "reviews": "661",
+            "image": "src/assets/imgs/books/beginning.jpg",
+            "printLength": 128,
+            "language": "English",
+            "PublicationDate": "16 April 2018",
+            "inStock": false
+        }
+    ]
+    ,"cart":[
+        {
+            "id":1,
+            "bookId": 8,
+            "title": "Never Split The Difference",
+            "image": "src/assets/imgs/books/never-split-the-difference.jpg",
+            "price": 7.05,
+            "quantity": 2,
+            "author": "Chris Voss"
+        },
+        {
+            "id":2,
+            "bookId": 5,
+            "title": "Rich Dad Poor Dad",
+            "image": "src/assets/imgs/books/rich-dad-poor-dad.jpg",
+            "price": 8,
+            "quantity": 3,
+            "author": "Robert T.Kiyosaki"
+        }
+    ]
+
+}
