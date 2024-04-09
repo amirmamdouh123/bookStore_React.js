@@ -57,9 +57,16 @@
     
 }
 
+.image{
+    margin-top: 3px;
+    height: 300px;
+    width: 280px;
+}
+
 .book-slide-item-img {
-    width: 60%;
-    object-fit: contain;
+    height: 100%;
+    width: 100%;
+
 }
 
 .book-slide-item-title {

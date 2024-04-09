@@ -1,6 +1,6 @@
 import Books from "../components/Books/Books-slider";
 import Services from "../components/Services/Services";
-import Slider from "../components/slider/SliderContainer";
+import Slider from "../components/BookSlider/SliderContainer";
 import BookStoreProvider from "../context/BookStoreProvider";
 
 function Home (){

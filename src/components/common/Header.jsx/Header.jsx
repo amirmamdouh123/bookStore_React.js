@@ -1,10 +1,29 @@
 import styles from './Header.module.css'
 import { BiBook  } from 'react-icons/bi';
-import { Link } from 'react-router-dom';
+import { useSelector } from 'react-redux';
+import { Link ,useNavigate } from 'react-router-dom';
+
+
 const {ContainerCSS,topHeader,topHeaderTelephone ,topHeaderWelcome,topHeaderLogin} = styles
 const {middleHeader,bookStoreSVG,headerSearch,cartCSS ,contItems} = styles
 const {buttomHeader,navBar,menulist} = styles
+
 function Header(){
+    const navigate =useNavigate()
+    const cart =useSelector((state)=>state.cart)
+
+    function getTotalCount(){
+        return Object.values(cart.items)?.reduce((accumlate,current)=>{
+            return accumlate+ Number(current);
+        },0)
+    }
+
+    const countItemCart =getTotalCount();
+
+    function navigateToCart(){
+        navigate("/cart")
+    }
+
 
     return (<header>
         <div className={ContainerCSS}>
@@ -37,8 +56,8 @@ function Header(){
                 <input  type="search" placeholder='Search in book store...' />
             </div>
 
-            <div className={cartCSS}>{/*3*/}
-                <p className={contItems}  >0</p>
+            <div className={cartCSS} onClick={()=>{navigateToCart()}}>{/*3*/}
+                {countItemCart && <p className={contItems}  >{Number(countItemCart)}</p>}
                 <i className="bi bi-cart-dash"></i>
             </div>
 

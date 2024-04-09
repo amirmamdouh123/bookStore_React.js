@@ -4,16 +4,13 @@ import BookStoreContext from "./bookStorContext";
 const BookStoreProvider = ({ children }) => {
   const [cartInfo, setCartInfo] = useState([]);
 
-  const [selected , setSelected] =useState(false);
+  const [isSelected , setSelected] =useState(false);
 
   // Handle Add To Cart
   
   return (
     <BookStoreContext.Provider
-      value={{
-        selected,setSelected,cartInfo,setCartInfo
-      }}
-    >
+      value={{isSelected,setSelected,cartInfo,setCartInfo}} >
       {children}
     </BookStoreContext.Provider>
   );

@@ -1,15 +1,17 @@
 import { useContext, useEffect, useState } from "react";
 import getBooks from "../../store/book/Async/getBooks";
 import { useDispatch, useSelector } from "react-redux";
-import Book from "./Book";
+import Book from "./Book"
 import './bookCSS.css'
 import BookSelected from "../bookSelect/bookSelected";
 import BookStoreContext from "../../context/bookStorContext";
 function Books({title}){
     
     const dispatch =useDispatch()
-    const {selected,cartInfo} = useContext(BookStoreContext);
+    const {isSelected,cartInfo} = useContext(BookStoreContext);
     const book =useSelector((state)=>state.book)
+    const cart =useSelector((state)=>state.cart)
+
     const [indexSlider,setIndexSlider]=useState(0)
 
     function sildingHandler(direction){
@@ -22,7 +24,8 @@ function Books({title}){
     }
     
     const bookJSx = book.items.map((el)=>{
-        return (<Book element={el} />)
+        console.log(cart.items[el.id]);
+        return (<Book element={el} qty={cart.items[el.id]} />)
     })
 
     useEffect(()=>{
@@ -51,7 +54,7 @@ function Books({title}){
 
 
         </div>
-        {selected &&<div> <BookSelected bookData={cartInfo} /> </div>}
+        {isSelected &&<div> <BookSelected bookData={cartInfo} /> </div>}
 
         </>
     )

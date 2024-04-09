@@ -1,0 +1,22 @@
+.AuthorContainer{
+    width: 300px;
+    height: 300px;
+    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 15px;
+    
+}
+
+.authImage{
+    width: 250px;
+    height: 250px;
+}
+
+.authName{
+    text-align: center;
+    color: cornflowerblue;
+}
