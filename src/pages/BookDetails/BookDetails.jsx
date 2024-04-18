@@ -42,8 +42,8 @@ function BookDetails(){
     return (
         <div className="book">
         <div className="book-content">
-          <img
-            src={""}
+          <img 
+            src={`${process.env.PUBLIC_URL}/${book.image}`}
             alt={book.title}
             className="book-content-img"
           />

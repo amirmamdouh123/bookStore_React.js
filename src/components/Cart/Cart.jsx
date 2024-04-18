@@ -3,10 +3,10 @@ import {addToCart ,removeFromCart} from "../../store/cart/cartSlice"
 import {useDispatch ,useSelector} from "react-redux"
 import React from 'react';
 function Cart({item}){
+  console.log(item);
     console.log("oneCart run");
     const dispatch =useDispatch()
     function addToCartHandler(id,qty){
-        console.log(id +" "+qty);
         dispatch(addToCart({id,qty}))
     }
 
@@ -17,7 +17,7 @@ function Cart({item}){
     return (
         <div key={item.id} className="cart-item">
               <img
-                src={`/books/${item.image}`}
+                src={`${process.env.PUBLIC_URL}/${item.image}`}
                 alt={item.title}
                 className="cart-item-img"
               />

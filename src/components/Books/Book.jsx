@@ -1,7 +1,6 @@
 import Rating from './Rating'
 import './bookCSS.css'
 import { useState } from 'react';
-import BookSelected from '../bookSelect/bookSelected'
 import bookStoreContext from '../../context/bookStorContext'
 import { useContext } from 'react';
 
@@ -17,7 +16,7 @@ function Book({element,qty}){
   return (
   <div key={element.id} className="book-slide-item" onClick={()=>{handleSelectBook()}}>
     <div className="image">
-      <img src='books/atomic-habits.jpg' className="book-slide-item-img" />
+      <img src={`${process.env.PUBLIC_URL+"/"+element.image}`} className="book-slide-item-img" />
     </div>
     <h3 className="book-slide-item-title">{element.title}</h3>
     <Rating rating={element.rating} reviews={element.reviews} />

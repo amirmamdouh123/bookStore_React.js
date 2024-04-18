@@ -32,7 +32,7 @@ const BookSelected = ({ bookData}) => {
           className="bi bi-x-circle-fill modal-icon"
         ></i>
         <div className="modal-content-img">
-          <img src={`/books/${image}`} alt={title} />
+          <img src={`${process.env.PUBLIC_URL}/${image}`} alt={title} />
         </div>
         <div className="modal-content-info">
           <h5 className="modal-content-info-title">{title}</h5>

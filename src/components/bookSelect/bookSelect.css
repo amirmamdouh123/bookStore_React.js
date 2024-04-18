@@ -23,6 +23,7 @@
     position: relative;
     border: 1px solid grey;
     box-shadow: 1px 1px 3px grey(1, 1, 1, 0.3);
+    flex-direction: row;
 }
 
 .modal-icon {

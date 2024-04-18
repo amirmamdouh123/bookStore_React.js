@@ -24,7 +24,6 @@ function Books({title}){
     }
     
     const bookJSx = book.items.map((el)=>{
-        console.log(cart.items[el.id]);
         return (<Book element={el} qty={cart.items[el.id]} />)
     })
 

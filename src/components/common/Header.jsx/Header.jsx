@@ -18,8 +18,7 @@ function Header(){
         },0)
     }
 
-    const countItemCart =getTotalCount();
-
+    const countItemCart = getTotalCount();
     function navigateToCart(){
         navigate("/cart")
     }

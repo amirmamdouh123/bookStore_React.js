@@ -16,6 +16,11 @@
     height: 250px;
 }
 
+.authImage img{
+    width: 100%;
+    height: 100%;
+}
+
 .authName{
     text-align: center;
     color: cornflowerblue;

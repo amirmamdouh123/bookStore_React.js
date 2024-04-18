@@ -1,10 +1,6 @@
 import './slider.css'
-import book1 from '../../assets/imgs/book1.png'
-import book2 from '../../assets/imgs/book2.png'
-import book3 from '../../assets/imgs/book3.png'
 import Slide from './Slide'
 import { useState } from 'react'
-
 function SliderContainer(){
 
     const [index,setIndex] =useState(0)
@@ -26,18 +22,18 @@ function SliderContainer(){
                 <Slide 
                     title={"Book Store"}
                     description={"It's not just reading. It's living the Adventure"}
-                    img={book1}   
+                    img={`${process.env.PUBLIC_URL}/assets/imgs/book1.png`}   
                     backgroudColor={'firstSlide'}/>
                
                 <Slide 
                     title={"Books for Every One"}
                     description={"It's not just reading. It's living the Adventure"}
-                    img={book2}  
+                    img={`${process.env.PUBLIC_URL}/assets/imgs/book2.png`}   
                     backgroudColor={'secondSlide'} />
                 <Slide 
                     title={"Check out the new Titles"}
                     description={"We send you the book you need at home"}
-                    img={book3} 
+                    img={`${process.env.PUBLIC_URL}/assets/imgs/book3.png`}   
                     backgroudColor={'thirdSlide'}  />
             </div>
             

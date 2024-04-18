@@ -22,7 +22,7 @@ function Carts(){
             dispatch(clearCart())
         }
 
-    },[dispatch,cart.items])
+    },[dispatch,lenCart])
 
     const cartsJSX= cart.booksFullInfo.map((el)=>{
         const qty = cart.items[el.id];
